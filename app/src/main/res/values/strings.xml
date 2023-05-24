@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">learnmusic</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password2">Password</string>
+    <string name="profile">Profile</string>
+    <string name="tutor">Tutor</string>
+    <string name="logout">Logout</string>
+    <string name="about">About</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="seller">Seller</string>
+    <string name="student">Student</string>
+    <string name="support_us">Support Us</string>
+    <!--    <string name="home">Home</string>-->
+    <string name="find_tutor">Find Tutor</string>
+    <string name="gender_">Gender</string>
+    <string name="age">Age</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="full_name">Full Name</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string-array name="gender">
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+
+    <string-array name="instrument">
+        <item>-- Select --</item>
+        <item>Piano</item>
+        <item>Drums</item>
+        <item>Guitar</item>
+        <item>Ukelele</item>
+        <item>Bass Guitar</item>
+        <item>Accoustic Guitar</item>
+        <item>Electric Guitar</item>
+    </string-array>
+
+    <string-array name="timeAm">
+        <item>-:--</item>
+        <item>8:00 am</item>
+        <item>8:30 am</item>
+        <item>9:00 am</item>
+        <item>9:30 am</item>
+        <item>10:00 am</item>
+        <item>10:30 am</item>
+        <item>11:00 am</item>
+        <item>11:30 am</item>
+        <item>12:00 pm</item>
+        <item>12:30 pm</item>
+        <item>1:00 pm</item>
+        <item>1:30 pm</item>
+        <item>2:00 pm</item>
+        <item>2:30 pm</item>
+        <item>3:00 pm</item>
+        <item>3:30 pm</item>
+        <item>4:00 pm</item>
+        <item>4:30 pm</item>
+        <item>5:00 pm</item>
+        <item>5:30 pm</item>
+        <item>6:00 pm</item>
+        <item>6:30 pm</item>
+        <item>7:00 pm</item>
+        <item>7:30 pm</item>
+        <item>8:00 pm</item>
+    </string-array>
+
+    <string-array name="timePm">
+        <item>-:--</item>
+        <item>8:00 am</item>
+        <item>8:30 am</item>
+        <item>9:00 am</item>
+        <item>9:30 am</item>
+        <item>10:00 am</item>
+        <item>10:30 am</item>
+        <item>11:00 am</item>
+        <item>11:30 am</item>
+        <item>12:00 pm</item>
+        <item>12:30 pm</item>
+        <item>1:00 pm</item>
+        <item>1:30 pm</item>
+        <item>2:00 pm</item>
+        <item>2:30 pm</item>
+        <item>3:00 pm</item>
+        <item>3:30 pm</item>
+        <item>4:00 pm</item>
+        <item>4:30 pm</item>
+        <item>5:00 pm</item>
+        <item>5:30 pm</item>
+        <item>6:00 pm</item>
+        <item>6:30 pm</item>
+        <item>7:00 pm</item>
+        <item>7:30 pm</item>
+        <item>8:00 pm</item>
+    </string-array>
+
+    <string-array name="user_type">
+        <item>User</item>
+        <item>Tutor</item>
+        <item>Seller</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="market_place">Market Place</string>
+    <string name="tutor_finder">Tutor Finder</string>
+    <!--    <string name="market_place">Market Place</string>-->
+    <string name="home">Home</string>
+    <string name="purchase">Purchase</string>
+    <string name="purchased">Purchased</string>
+    <string name="pending_transaction">Pending Transaction</string>
+
+</resources>

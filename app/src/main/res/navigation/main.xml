@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/home">
+
+    <activity
+        android:id="@+id/dashboard"
+        android:name="com.example.learnmusic.DashBoard"
+        android:label="activity_dash_board"
+        tools:layout="@layout/activity_dash_board" />
+
+    <activity
+        android:id="@+id/home"
+        android:name="com.example.learnmusic.Home"
+        android:label="activity_home"
+        tools:layout="@layout/activity_home" />
+    <activity
+        android:id="@+id/aboutUs"
+        android:name="com.example.learnmusic.AboutUs"
+        android:label="activity_about_us"
+        tools:layout="@layout/activity_about_us" />
+
+    <activity
+        android:id="@+id/userProfile"
+        android:name="com.example.learnmusic.UserProfile"
+        android:label="activity_user_profile"
+        tools:layout="@layout/activity_user_profile" />
+
+    <activity
+        android:id="@+id/tutorFinder2"
+        android:name="com.example.learnmusic.TutorFinder"
+        android:label="activity_tutor_finder"
+        tools:layout="@layout/activity_tutor_finder" />
+
+</navigation>

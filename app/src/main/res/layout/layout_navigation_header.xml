@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:background="@color/colorAccent"
+    android:paddingStart="20dp"
+    android:paddingTop="50dp">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/nav_profile"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/list_background"
+        android:src="@drawable/pic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:riv_corner_radius="10dp" />
+
+    <View
+        android:id="@+id/viewSupporter"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        app:layout_constraintBottom_toBottomOf="@+id/nav_profile"
+        app:layout_constraintEnd_toEndOf="@+id/nav_profile"
+        app:layout_constraintStart_toStartOf="@+id/nav_profile"
+        app:layout_constraintTop_toTopOf="@+id/nav_profile" />
+
+    <TextView
+        android:id="@+id/nav_fullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Juan Dela Crus"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@id/viewSupporter"
+        app:layout_constraintStart_toEndOf="@id/nav_profile" />
+
+    <TextView
+        android:id="@+id/nav_emailAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="juanDelacruz@gmail.com"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@id/nav_profile"
+        app:layout_constraintTop_toBottomOf="@id/viewSupporter" />
+
+    <TextView
+        android:id="@+id/UserType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="[ Tutor ]"
+        android:textColor="#FF0000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/nav_fullname"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="@+id/nav_fullname"
+        app:layout_constraintTop_toBottomOf="@+id/nav_emailAdd" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

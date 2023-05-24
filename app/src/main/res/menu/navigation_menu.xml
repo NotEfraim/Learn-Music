@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:title="Learn Music">
+        <menu>
+
+            <item
+                android:id="@+id/themarketplace"
+                android:icon="@drawable/store"
+                android:title="@string/market_place" />
+
+            <item
+                android:id="@+id/tutorFinder2"
+                android:icon="@drawable/ic_tutor"
+                android:title="@string/tutor_finder" />
+
+        </menu>
+
+    </item>
+
+
+    <item
+        android:id="@+id/userProfile"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/profile"/>
+
+    <item
+        android:id="@+id/purchase"
+        android:icon="@drawable/shopping"
+        android:title="@string/purchased" />
+
+    <item
+        android:id="@+id/pending"
+        android:icon="@drawable/transaction"
+        android:title="@string/pending_transaction" />
+
+    <item
+        android:id="@+id/dashboard"
+        android:icon="@drawable/dash"
+        android:title="@string/dashboard"/>
+
+    <item
+        android:id="@+id/aboutUs"
+        android:icon="@drawable/ic_about"
+        android:title="@string/about"/>
+
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_logout"
+        android:title="@string/logout"/>
+
+</menu>
